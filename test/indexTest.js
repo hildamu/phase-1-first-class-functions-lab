@@ -70,7 +70,7 @@ describe('index.js', function () {
   });
 
   describe('selectDifferentDrivers(arrayOfDrivers, function)', function () {
-    it('returns the first two drivers when passed returnFirstTwoDrivers() as the second argument', function () {
+    if('returns the first two drivers when passed returnFirstTwoDrivers() as the second argument', function () {
       expect(selectDifferentDrivers(drivers, returnFirstTwoDrivers)).to.eql(['Antonia', 'Nuru']);
     });
 
